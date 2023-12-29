@@ -1,4 +1,5 @@
 <?php include 'includes/session.php'; ?>
+<!-- test -->
 <?php
 	$output = '';
 	if(!isset($_GET['code']) OR !isset($_GET['user'])){
