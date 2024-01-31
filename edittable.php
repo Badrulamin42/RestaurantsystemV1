@@ -7,7 +7,7 @@
 ?>
 <?php 
 
-	$db = mysqli_connect('localhost', 'root', '', 'ecomm');
+	$db = mysqli_connect('localhost', 'root', '', 'test');
 
 	if (isset($_GET['edit'])) {
 		$id = $_GET['edit'];

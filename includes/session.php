@@ -4,7 +4,7 @@
 
 
 	if(isset($_SESSION['admin'])){
-		header('location: admin/home.php');
+		header('location: userdashboard');
 	}
 
 	if(isset($_SESSION['user'], $_SESSION['tokengg'])){

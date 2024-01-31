@@ -9,7 +9,7 @@ if (isset($_GET['edit'])) {
 	$update = true;
 	$idres = 4;
 }
-$db = mysqli_connect('localhost', 'root', '', 'ecomm');
+$db = mysqli_connect('localhost', 'root', '', 'test');
 $results2 = mysqli_query($db, "SELECT * FROM sales WHERE id=$id");
 $results5 = mysqli_query($db, "SELECT * FROM sales WHERE id=$id");
 $results1 = mysqli_query($db, "SELECT * FROM sales WHERE id=$id");
